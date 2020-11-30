@@ -6,16 +6,7 @@ Documentation: https://docs.python.org/3/howto/descriptor.html
 """
 
 class SystemField:
-    def __init__(self, key):
-        self.key = key
-
-    def __get__(self, obj, objtype=None):
-        if obj is None:
-            return self
-        return obj[self.key]
-
-    def __set__(self, obj, value):
-        obj[self.key] = value
+    # pass
 
 
 class Record(dict):
