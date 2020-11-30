@@ -15,3 +15,7 @@ curl -X GET -H "Accept: text/plain" http://127.0.0.1:5000/records/
 curl -X GET -H "Accept: application/json" http://127.0.0.1:5000/records/
 curl -X GET -H "Accept: text/plain" http://127.0.0.1:5000/records/1
 ```
+
+### Request handling
+
+![](request-handling.png)
