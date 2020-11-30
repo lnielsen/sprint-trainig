@@ -16,6 +16,10 @@ curl -X GET -H "Accept: application/json" http://127.0.0.1:5000/records/
 curl -X GET -H "Accept: text/plain" http://127.0.0.1:5000/records/1
 ```
 
-### Request handling
+### Request handling (Presentation Layer)
 
 ![](request-handling.png)
+
+### Service layer (Invenio-Records-Resources)
+
+![](service-layer.png)
